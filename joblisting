@@ -1,0 +1,128 @@
+/* Main page layout */
+body {
+    font-family: Arial, FreeSans, sans-serif;
+    font-size: 90%;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #18548c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #30b457;
+}
+
+.cssForm {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.cssLabelsColumn {
+    width: 150px;
+    font-weight: bold;
+    color: #18548c;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.cssInputFieldsColumn {
+    vertical-align: top;
+}
+
+.cssTextArea,
+.cssInputFieldsColumn input[type="text"],
+.cssInputFieldsColumn input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.cssJobName {
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #18548c;
+    margin-bottom: 5px;
+}
+
+.cssSignupDisplayName,
+.cssJobSkills,
+.cssJobLocationAddress {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.cssJobSkills {
+    font-style: italic;
+}
+
+.cssGoogleMapIFrame {
+    height: 300px;
+    width: 100%;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.cssThankYou {
+    color: #18548c;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ui-widget {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.ui-widget input {
+    font-family: Arial, sans-serif;
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.requiredInput {
+    color: red;
+}
+
+.externalJob,
+.externalJobLink,
+.pastEvent {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Signup link styled as a button */
+.cssJobShiftSignup a {
+    display: inline-block;
+    background-color: #18548c;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.cssJobShiftSignup a:hover {
+    background-color: #143a60;
+}
